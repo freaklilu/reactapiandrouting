@@ -1,0 +1,400 @@
+/* General Styling*/
+body {
+  font-family: "Montserrat", sans-serif;
+}
+a {
+  color: #06c;
+}
+img {
+  max-width: 100%;
+}
+.white {
+  color: #fff;
+}
+.black {
+  color: #1d1d1f;
+}
+.grey {
+  color: #86868b;
+}
+.top-50 {
+  margin-top: 50px;
+}
+.top-100 {
+  margin-top: 100px;
+}
+.top-57{
+  margin-top: 57px;
+}
+/* Header Style */
+.nav-wrapper {
+  background: rgba(0, 0, 0, 0.8);
+  font-size: 0.85em;
+  font-weight: 200;
+}
+.nav-wrapper ul li a {
+  color: #fff;
+}
+.navbar-toggler {
+  color: #fff;
+}
+.nav-item {
+  text-align: left !important;
+  padding: 4px 0;
+  border-bottom: 1px solid #4b4b4b;
+}
+/* main body starts here */
+.unicef-wrapper{
+  background-color: #f5f5f7;
+  padding: 63px 0 15px;
+}
+.unicef-logo{
+  background-image: url(../imagesnew/logo/unicef_logo_dark__small_2x.png);
+  height: 28px;
+  width: 108px;
+  background-repeat: no-repeat;
+  background-size: 108px 28px;
+}
+.unicef-text{
+  font-size: 14px;
+  width: 300px;
+  text-align: center;
+}
+.unicef-text a:after{
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f08e";
+  padding-left: 5px;
+  color: #06c;
+
+}
+.unicef-wrapper div{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* macbook  air statrs here */
+.main-highlight-wrapper{
+  background-image: url(../imagesnew/home/hero_macbookair__small_2x.png);
+  min-height: 508px;
+  max-width: 734px;
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size: 734px 548px;
+}
+.main-highlight-wrapper h3{
+  background-image: url(../imagesnew/logo/MacBookAirLogo-Sm.jpeg);
+  height: 29px;
+  width: 178px;
+  background-size:178px 29px;
+  background-repeat: no-repeat;
+  margin-right: auto;
+  margin-left: auto;
+}
+.links-wrapper a:after{
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f105";
+  padding-left: 5px;
+  color: #06c;
+
+}
+/* macbook pro 13*/
+.second-highight-wrapper{
+  background-image: url(../imagesnew/home/hero_mbp13__small_2x.jpg);
+  height: 548px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.second-highight-wrapper h3{
+  background-image: url(../imagesnew/logo/MacBook\ ProLogo_Small.jpeg);
+  height: 48px;
+  width: 207px;
+  background-size: 207px 48px;
+  margin-right: auto;
+  margin-left: auto;
+}
+/* iphone 13 starts here */
+.third-highight-wrapper{
+  background-image: url(../imagesnew/home/hero_iphone13_avail__small_2x.jpg);
+  height: 548px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* fourth highlight wrapper */
+/* iphone 13 pro */
+.fourth-highlight-wrapper .left-side-wrapper{
+  background-image: url(../imagesnew/home/promo_iphone13pro_avail__small_2x.jpg);
+}
+.left-side-wrapper,.right-side-wrapper{
+  height: 548px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.fourth-highlight-wrapper .right-side-wrapper{
+background-image: url(../imagesnew/home/promo_watch_lte__small_2x.jpg);
+}
+.fourth-highlight-wrapper .right-side-wrapper h2{
+  background-image: url(../imagesnew/logo/promo_logo_watch_small_2x.png);
+  height: 47px;
+  width: 122px;
+  background-size: 122px 47px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* fifth highlight starts here */
+.fifth-highlight-wrapper .left-side-wrapper h2{
+  background-image: url(../imagesnew/logo/promo_logo_ipadair__frwnnsqveeye_small_2x.png);
+  height: 30px;
+  width: 114px;
+  background-size: 114px 30px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.fifth-highlight-wrapper .left-side-wrapper{
+  background-image: url(../imagesnew/home/promo_ipadair_avail__small_2x.jpg);
+}
+.fifth-highlight-wrapper .right-side-wrapper h2{
+background-image: url(../imagesnew/logo/logo_promo_katy_perry__small_2x.png);
+height: 30px;
+width: 114px;
+background-size: 114px 30px;
+margin-right: auto;
+margin-left: auto;
+}
+.fifth-highlight-wrapper .right-side-wrapper{
+  background-image: url(../imagesnew/home/promo_katy_perry__small_2x.jpg);
+}
+.fifth-highlight-wrapper .kt a:after{
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f08e";
+  padding-left: 5px;
+}
+.fifth-highlight-wrapper .right-side-wrapper ul li a{
+color: #a6ff00;
+}
+.fifth-highlight-wrapper .right-side-wrapper ul li a::after{
+  color: #a6ff00;
+}
+
+/* sixth highlight starts here */
+/* apple card */
+.sixth-highlight-wrapper .left-side-wrapper h2{
+  background-image: url(../imagesnew/logo/logo__small_2x.png);
+  height: 30px;
+  width: 114px;
+  background-size: 114px 30px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.sixth-highlight-wrapper .left-side-wrapper{
+  background-image: url(../imagesnew/home/tile__small_2x.jpg);
+  
+}
+.sixth-highlight-wrapper .right-side-wrapper h2{
+  background-image: url(../imagesnew/logo/logo__plus_small_2x.png);
+  height: 27px;
+  width: 69px;
+  background-size: 69px 27px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.sixth-highlight-wrapper .right-side-wrapper h3{
+  background-image: url(../imagesnew/logo/logo_promo_cha_cha__small_2x.png);
+  height: 89px;
+  width: 221px;
+  background-size: 221px 89px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.sixth-highlight-wrapper .right-side-wrapper{
+  background-image: url(../imagesnew/home/promo_cha_cha__small_2x.jpg);
+}
+.stream a:after{
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f144";
+  padding-left: 5px;
+  color: black;
+}
+.stream a{
+  color: black;
+}
+
+
+/* media query starts here */
+@media(min-width:768px){
+  .unicef-text{
+    width: 100%;
+  }
+  .unicef-logo{
+    background-position:right;
+  }
+  /* macbook air */
+  .main-highlight-wrapper{
+    background-image: url(../imagesnew/home/hero_macbookair__medium_2x.png);
+    max-width: 1068px;
+    min-height: 500px;
+    background-size: 1068px 617px;
+    background-repeat: no-repeat;
+  }
+  .main-highlight-wrapper h2{
+    font-size: 50px;
+  }
+  /* macbook pro 13 */
+  .second-highight-wrapper{
+    background-image: url(../imagesnew/home/hero_mbp13__medium_2x.jpg);
+  }
+ .second-highight-wrapper h2{
+  font-size: 50px;
+ }
+ /* iphone 13 */
+ .third-highight-wrapper{
+  background-image: url(../imagesnew/home/hero_iphone13_avail__medium_2x.jpg);
+ }
+ .third-highight-wrapper h2{
+  font-size: 50px;
+ }
+
+ /* fourth highlight starts here */
+ /* iphone 13 pro */
+ .row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+}
+
+@media(min-width:992px){
+.main-highlight-wrapper{
+  background-image: url(../imagesnew/home/hero_macbookair__large_2x.png);
+    max-width: 3008px;
+    min-height: 650px;
+    background-size: 3008px 736px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 210px;
+    padding-right: 350px;
+}
+}
+
+
+/* Footer Styling */
+.footer-wrapper {
+  background-color: #f5f5f7;
+  color: #86868b;
+  font-size: 0.7em;
+}
+.footer-wrapper ul {
+  list-style: none;
+  padding-bottom: 10px;
+  padding-inline-start: 0px;
+}
+.footer-wrapper ul a {
+  color: #515154;
+}
+.my-apple-wrapper {
+  padding-bottom: 15px;
+  margin-top: 10px;
+}
+.copyright {
+  margin-top: 15px;
+}
+.footer-country {
+  margin-top: 8px;
+}
+.flag-wrapper {
+  display: inline-block;
+  vertical-align: middle;
+  padding-right: 5px;
+}
+.footer-country-name {
+  display: inline-block;
+  vertical-align: middle;
+}
+.footer-links-terms ul {
+  display: flex;
+}
+.footer-links-terms ul li {
+  padding: 0 10px;
+  border-right: 1px solid #d2d2d7;
+}
+.footer-links-terms ul li:first-child {
+  padding-left: 0;
+}
+.footer-links-terms ul li:last-child {
+  border-right: 0;
+}
+
+.footer-links-wrapper h3 {
+  font-size: 12px;
+  font-weight: 600;
+  color: #1d1d1f;
+}
+.footer-wrapper ul li {
+  padding: 4px 0;
+}
+.upper-text-container {
+  border-bottom: 1px solid #d2d2d7;
+  padding: 17px 0 10px;
+  margin-bottom: 20px;
+}
+.upper-text-container a {
+  color: #515154;
+}
+
+/*Media Query*/
+/* Footer */
+@media (max-width: 768px) {
+  .footer-links-wrapper ul {
+    display: none;
+  }
+  .footer-links-wrapper h3 {
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  .footer-links-wrapper h3:after {
+    font-family: "FontAwesome";
+    content: "\f067";
+    padding-left: 10px;
+    position: absolute;
+    right: 25px;
+  }
+}
+@media (min-width: 768px) {
+  /*Nav bar*/
+  .nav-item {
+    text-align: center !important;
+    padding: 0;
+    border-bottom: 0px;
+  }
+  /*Footer styling*/
+  .my-apple-wrapper {
+    border-bottom: 1px solid #d2d2d7;
+  }
+}
+@media (min-width: 992px) {
+  /*Footer styling*/
+  .copyright {
+    margin-top: 10px;
+  }
+  .footer-country {
+    margin-top: 10px;
+  }
+  .footer-links-terms {
+    margin-top: 10px;
+  }
+}
